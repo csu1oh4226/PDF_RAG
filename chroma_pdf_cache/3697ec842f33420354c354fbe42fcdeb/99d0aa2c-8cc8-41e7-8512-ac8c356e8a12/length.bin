@@ -1,0 +1,13 @@
+Copyright 2022. DaeKyeong all rights reserved                
+4. 코드스멜과리펙토링
+코드 스멜 유형 1 - MYSTERIUS NAME
+ChangeFunctionDeclaration.py
+< Before >
+def calculate_sum(a, b):
+return a + b
+문제점:
+∧
+함수 이름 calculate_sum은 모호함 — “무엇의 합을 계산하는지” 불분
+명
+∧
+향후 기능 확장(예: 세 개의 수를 더함)을 고려하지 않음�
